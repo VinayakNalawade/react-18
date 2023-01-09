@@ -1,0 +1,65 @@
+.navbar {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  background-color: #ffffff30;
+  justify-content: space-between;
+}
+
+.navNameContainer {
+  display: flex;
+  align-items: center;
+}
+
+.navlogo {
+  width: 23px;
+  margin-left: 15px;
+}
+
+.navheading {
+  font-size: 17px;
+  color: #ffffff;
+  font-weight: 700;
+  margin: 0;
+}
+
+.navScoreContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navScore {
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .navlogo {
+    width: 30px;
+    margin-left: 30px;
+  }
+
+  .navheading {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .navScoreContainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .navScore {
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-right: 30px;
+  }
+}
